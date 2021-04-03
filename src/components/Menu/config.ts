@@ -45,14 +45,7 @@ const config: MenuEntry[] = [
         label: "Github",
         href: "https://github.com/goosedefi/",
       },
-      {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
-      },
-      {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
-      },
+      
     ],
   },
  
