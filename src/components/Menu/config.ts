@@ -27,7 +27,7 @@ const config: MenuEntry[] = [
     href: 'https://www.goosedefi.com/farms'
   },
   {
-    label: 'Nests',
+    label: 'Stake',
     icon: 'PoolIcon',
     href: 'https://www.goosedefi.com/nests'
   },
