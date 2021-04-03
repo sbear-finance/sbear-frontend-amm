@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: 'https://www.sbeardemo.cf'
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
+    href: 'https://www.sbeardemo.cf/farms'
   },
   {
     label: 'Stake',
     icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
+    href: 'https://www.sbeardemo.cf/nests'
   },
   // {
   //   label: 'Lottery',
@@ -43,10 +43,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/",
       },
       
     ],
+  },
+  {
+    label: 'Dashboard',
+    icon: 'HomeIcon',
+    href: 'https://ybear.surge.sh/'
   },
  
  
