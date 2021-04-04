@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.sbeardemo.cf'
+    href: 'https://www.ybearswap.finance'
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.sbeardemo.cf/farms'
+    href: 'https://www.ybearswap.finance/farms'
   },
   {
     label: 'Stake',
     icon: 'PoolIcon',
-    href: 'https://www.sbeardemo.cf/nests'
+    href: 'https://www.ybearswap.finance/nests'
   },
   // {
   //   label: 'Lottery',
@@ -43,7 +43,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/",
+        href: "https://github.com/sbear-finance",
       },
       
     ],
