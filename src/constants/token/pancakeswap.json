@@ -23,7 +23,7 @@
       "symbol": "yBEAR",
       "address": "0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b",
       "chainId": 56,
-      "decimals": 18,
+      "decimals": 9,
       "logoURI": "/images/coins/YBEAR.png"
     },
     {
