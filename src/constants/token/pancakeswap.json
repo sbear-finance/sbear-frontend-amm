@@ -19,6 +19,22 @@
       "logoURI": "/images/coins/SBEAR.png"
     },
     {
+      "name": "yBEAR.finance",
+      "symbol": "yBEAR",
+      "address": "0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/YBEAR.png"
+    },
+    {
+      "name": "yBEAR HONEY",
+      "symbol": "yBHONEY",
+      "address": "0x5b147AD94f3f25f6aA94a58aBCcd6745Df36d7F7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/YBHONEY.png"
+    },
+    {
       "name": "AUTOv2",
       "symbol": "AUTO",
       "address": "0xa184088a740c695e156f91f5cc086a06bb78b827",
