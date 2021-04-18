@@ -1,15 +1,15 @@
 {
-  "short_name": "yBearSwap Finance",
-  "name": "yBearSwap Finance",
+  "short_name": "yBEARSwap",
+  "name": "yBEARSwap",
+  "description": "Farm yBEARSwap with LP Tokens",
   "icons": [
     {
-      "src": "./logo2.png",
-      "sizes": "160x160",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "src": "favicon_2.ico",
+      "type": "image/x-icon",
+      "sizes": "256x256"
     }
   ],
-  "orientation": "portrait",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
