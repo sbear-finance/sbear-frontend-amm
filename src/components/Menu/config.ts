@@ -31,11 +31,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: 'https://www.ybearswap.finance/nests'
   },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: 'https://www.goosedefi.com/lottery'
-  // },
+   {
+     label: 'Lottery',
+     icon: 'TicketIcon',
+     href: 'https://www.ybearswap.finance/lottery'
+   },
  
   {
     label: 'sBEAR INFO',
