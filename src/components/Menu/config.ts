@@ -4,37 +4,50 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.ybearswap.finance'
-  },
+    href: '/',
+  }, 
   {
     label: 'Trade',
     icon: 'TradeIcon',
-    initialOpenState: true,
     items: [
       {
         label: 'Exchange',
-        href: '/swap'
+        href: '/swap',
+      },
+    {
+        label: 'Exchange V2',
+        href: 'https://v2exchange.ybearswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: '/pool'
-      }
-    ]
+        href: '/pool',
+      },
+    {
+        label: 'Liquidity V2',
+        href: 'https://v2exchange.ybearswap.finance/#/pool',
+      },
+    ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.ybearswap.finance/farms'
+    href: '/farms',
   },
   {
-    label: 'Stake',
-    icon: 'PoolIcon',
-    href: 'https://www.ybearswap.finance/nests'
+    label: 'Farms V2',
+    icon: 'FarmIcon',
+    href: 'https://v2.ybearswap.finance/farms',
   },
+  {
+    label: 'Stakes',
+    icon: 'PoolIcon',
+    href: '/nests',
+  },
+ 
    {
-     label: 'Lottery',
-     icon: 'TicketIcon',
-     href: 'https://www.ybearswap.finance/lottery'
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '/lottery',
    },
  
   {
@@ -45,17 +58,17 @@ const config: MenuEntry[] = [
         label: 'BUY sBEAR',
         href: 'https://exchange.ybearswap.finance/#/swap?inputCurrency=0xdec858d5ee93568ce4ea5bbf9169cea23d2de305',
       },
-	  {
+    {
         label: 'sBEAR CONTRACT',
         href: 'https://bscscan.com/token/0xdec858d5ee93568ce4ea5bbf9169cea23d2de305',
       },
-	  {
+    {
         label: 'sBEAR CHART',
         href: 'https://dex.guru/token/0xdec858d5ee93568ce4ea5bbf9169cea23d2de305-bsc',
       },
       {
-	  label: 'sBEAR Whitepaper',
-	  href: 'https://ybear.finance/YBEARSWAP_WHITEPAPER.pdf',
+    label: 'sBEAR Whitepaper',
+    href: 'https://ybear.finance/YBEARSWAP_WHITEPAPER.pdf',
       },
     ],
   },
@@ -68,23 +81,23 @@ const config: MenuEntry[] = [
         label: 'BUY yBEAR',
         href: 'https://exchange.ybearswap.finance/#/swap?outputCurrency=0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
       },
-	  {
+    {
         label: 'yBEAR CONTRACT',
         href: 'https://bscscan.com/token/0xa8da060ebd32a753005c6ee476a0d79177c6ea8b',
       },
-	  {
+    {
         label: 'yBEAR CHART',
         href: 'https://dex.guru/token/0xa8da060ebd32a753005c6ee476a0d79177c6ea8b-bsc',
       },
-	  {
-		label: 'yBEAR Whitepaper',
-		href: 'https://ybear.finance/wp-content/uploads/2021/03/Ybear-Whitepaper.pdf',
-	  },
-	    {
-		label: 'yBEAR Website',
-		href: 'https://ybear.finance',
-	  },
-	          {
+    {
+    label: 'yBEAR Whitepaper',
+    href: 'https://ybear.finance/wp-content/uploads/2021/03/Ybear-Whitepaper.pdf',
+    },
+      {
+    label: 'yBEAR Website',
+    href: 'https://ybear.finance',
+    },
+            {
         label: 'Coingecko',
         href: 'https://www.coingecko.com/en/coins/yield-bear',
       },
@@ -103,7 +116,7 @@ const config: MenuEntry[] = [
         label: 'BUY yBHONEY',
         href: 'https://exchange.ybearswap.finance/#/swap?inputCurrency=0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
       },
-	  {
+    {
         label: 'yBHONEY CONTRACT',
         href: 'https://bscscan.com/token/0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
       },
@@ -111,9 +124,10 @@ const config: MenuEntry[] = [
         label: 'yBHONEY CHART',
         href: 'https://dex.guru/token/0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7-bsc',
       },
- 
+
     ],
   },
+  
  
   {
     label: 'Solid Group',
@@ -130,7 +144,6 @@ const config: MenuEntry[] = [
       },
     ],
   },
- 
 ]
 
 export default config
