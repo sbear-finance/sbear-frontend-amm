@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://www.ybearswap.finance',
   }, 
   {
     label: 'Trade',
@@ -31,7 +31,7 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: 'https://www.ybearswap.finance/farms',
   },
   {
     label: 'Farms V2',
@@ -41,13 +41,13 @@ const config: MenuEntry[] = [
   {
     label: 'Stakes',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: 'https://www.ybearswap.finance/nests',
   },
  
    {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: '/lottery',
+    href: 'https://www.ybearswap.finance/lottery',
    },
  
   {
