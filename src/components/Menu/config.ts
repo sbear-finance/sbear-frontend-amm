@@ -62,7 +62,7 @@ const config: MenuEntry[] = [
         label: 'sBEAR CONTRACT',
         href: 'https://bscscan.com/token/0xdec858d5ee93568ce4ea5bbf9169cea23d2de305',
       },
-    {
+     {
         label: 'sBEAR CHART',
         href: 'https://dex.guru/token/0xdec858d5ee93568ce4ea5bbf9169cea23d2de305-bsc',
       },
@@ -141,6 +141,10 @@ const config: MenuEntry[] = [
       {
         label: 'Github',
         href: 'https://github.com/sbear-finance/',
+      },
+      {
+        label: 'Doc',
+        href: 'https://ybearswap.gitbook.io/ybearswap/',
       },
     ],
   },
