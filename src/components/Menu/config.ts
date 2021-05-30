@@ -11,43 +11,38 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Exchange',
+        label: 'Exchange V1',
         href: '/swap',
       },
     {
-        label: 'Exchange V2',
-        href: 'https://v2exchange.ybearswap.finance/',
+        label: 'Exchange',
+        href: 'https://exchange.ybearswap.finance/',
       },
       {
-        label: 'Liquidity',
+        label: 'Liquidity V1',
         href: '/pool',
       },
     {
-        label: 'Liquidity V2',
-        href: 'https://v2exchange.ybearswap.finance/#/pool',
+        label: 'Liquidity',
+        href: 'https://exchange.ybearswap.finance/#/pool',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.ybearswap.finance/farms',
-  },
-  {
-    label: 'Farms V2',
-    icon: 'FarmIcon',
-    href: 'https://v2.ybearswap.finance/farms',
+    href: 'https://ybearswap.finance/farms',
   },
   {
     label: 'Stakes',
     icon: 'PoolIcon',
-    href: 'https://v2.ybearswap.finance/nests',
+    href: 'https://ybearswap.finance/nests',
   },
  
    {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://www.ybearswap.finance/lottery',
+    href: 'https://ybearswap.finance/lottery',
    },
  
   {
