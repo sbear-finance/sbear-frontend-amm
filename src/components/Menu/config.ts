@@ -65,6 +65,14 @@ const config: MenuEntry[] = [
     label: 'sBEAR Whitepaper',
     href: 'https://ybear.finance/YBEARSWAP_WHITEPAPER.pdf',
       },
+      {
+	  label: 'Coinmarketcap',
+	  href: 'https://coinmarketcap.com/currencies/ybearswap/',
+      },
+      {
+	  label: 'Coingecko',
+	  href: 'https://www.coingecko.com/tr/coins/ybearswap',
+      },
     ],
   },
   
