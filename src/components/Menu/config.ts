@@ -71,7 +71,7 @@ const config: MenuEntry[] = [
       },
       {
 	  label: 'Coingecko',
-	  href: 'https://www.coingecko.com/tr/coins/ybearswap',
+	  href: 'https://www.coingecko.com/en/coins/ybearswap',
       },
     ],
   },
